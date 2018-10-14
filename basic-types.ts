@@ -5,7 +5,7 @@
  *  Todo find comments in Handbook
 */
 let isDone: boolean = false
-let decimal: number = 6 / 5
+let decimal: number = 6 / 5.37
 let binary: number = 0b11010110
 let hex: number = 0x22CA
 let octal: number = 0o333
