@@ -1,3 +1,6 @@
+/**
+ * Startup shows 'Hello message'
+ */
 class Startup {
     static main() {
         console.log('Hello World');
@@ -5,4 +8,3 @@ class Startup {
     }
 }
 Startup.main();
-//# sourceMappingURL=HelloWorld.js.map
