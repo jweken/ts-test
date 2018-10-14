@@ -1,4 +1,5 @@
 {
+    "name": "ts-test",
     "description": "ts-test - a test project for typescript",
     "license": "MIT",
     "repository": {

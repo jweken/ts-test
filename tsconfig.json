@@ -2,7 +2,18 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
+        "strictFunctionTypes": true,
+        "removeComments": false,
         "sourceMap": false
-    }
+    },
+    "include": [
+        "**/*.js",
+        "**/*.ts*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+
 
 }
