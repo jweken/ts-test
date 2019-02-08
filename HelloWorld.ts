@@ -3,9 +3,10 @@
  */
 class Startup {
     public static main(): number {
-        console.log('Hello World');
-        return 0;
+        var x =
+            console.log('Hello World')
+        return 0
     }
 }
 
-Startup.main();
+Startup.main()
