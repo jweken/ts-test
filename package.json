@@ -5,10 +5,9 @@
     "repository": {
         "url": "https://github.com/jweken/ts-test.git"
     },
-    "devDependencies": {
-        "typescript": "^3.2.0-dev.20181011"
-    },
+    "devDependencies": {},
     "dependencies": {
-        "@types/node": "^10.12.2"
+        "@types/node": "^10.12.2",
+        "typescript": "^3.3.3"
     }
 }
