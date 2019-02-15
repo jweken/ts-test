@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
+        "outDir": "lib",
         "target": "es6",
         "module": "commonjs",
         "strictFunctionTypes": true,
         "removeComments": false,
-        "sourceMap": false
+        "sourceMap": false,
     },
     "include": [
         "**/*.js",
