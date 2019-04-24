@@ -1,4 +1,10 @@
 {
+    "markdownlint.config": {
+        "MD004": false,
+        "MD013": false,
+        "MD032": false
+    },
+    "cSpell.enabled": false,
     "cSpell.words": [
         "customizations",
         "gitlens",
