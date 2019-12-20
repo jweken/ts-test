@@ -23,5 +23,6 @@ If you want to get rid of cSpell problems goto settings [here](<.vscode\settings
 
 ## HandbookInfo
 
-* What the [Handbook](<https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/tsconfig.json.md>) says about tsconfig.json
+* Pages in the [Handbook](https://github.com/Microsoft/TypeScript-Handbook/tree/master/pages).
+* What the [Handbook](<https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/tutorials/tsconfig.json.md>) says about tsconfig.json
 * [CompilerOptions](<https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Compiler%20Options.md>) in Typescript config-file

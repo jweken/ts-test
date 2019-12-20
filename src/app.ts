@@ -1,5 +1,4 @@
-import { Warnings } from "./messages";
+import * as messages from "./messages"
 
-let str = Warnings[5]
-console.log(str)
+console.log(messages.Warnings)
 

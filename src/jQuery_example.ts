@@ -8,7 +8,7 @@ interface JQueryStatic {
     (ready: () => any): any;
 }
 var $: JQueryStatic;
-$.get("file:///./basic.html",
+$.get("@basic.html",
     function (data: string) {
         $("div").text(data);
     }
