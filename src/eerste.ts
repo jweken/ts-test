@@ -1,5 +1,5 @@
 /**/
-console.log("eerste")
+console.log("eerste");
 export enum Fruit {
     Apple = 0,
     Pear,
@@ -7,4 +7,4 @@ export enum Fruit {
     Banana
 }
 
-console.log(Fruit)
+console.log(Fruit);

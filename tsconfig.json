@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "outDir": "lib",
-        "target": "es6",
+        "target": "ESNext",
         "module": "commonjs",
         "strictFunctionTypes": true,
         "removeComments": false,
@@ -15,6 +15,4 @@
         "node_modules",
         "**/*.spec.ts"
     ]
-
-
 }
