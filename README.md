@@ -17,7 +17,7 @@ Project on [Github](<https://github.com/jweken/ts-test.git>)
 
 ## Typescript
 
-If you want to get rid of cSpell problems goto settings [here](<C:\Users\jweke\AppData\Roaming\Code\User\settings.json>).
+If you want to get rid of cSpell problems goto settings *(CTRL + comma).json>).
 * Goto the Typescript [Website](<https://www.typescriptlang.org/>)
 * Learn about [Typescript](<https://code.visualstudio.com/docs/languages/typescript>) in Visual Studio
 * Find Typescript on [Github](<https://github.com/Microsoft/TypeScript/tree/master/doc>)  
