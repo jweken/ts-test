@@ -7,11 +7,17 @@ export enum Warnings {
     "Er is een fout opgetreden."
 }
 
+
 export enum Countries {
     Nederland = 0,
     België,
     Duitsland,
     Frankrijk,
-    VerenigdeStaten
+    VerenigdeStaten,
+    Thailand,
+    Last
 }
+
+export var last = Countries.Last
+
 

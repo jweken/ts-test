@@ -13,3 +13,4 @@ $.get("@basic.html",
         $("div").text(data);
     }
 );
+
