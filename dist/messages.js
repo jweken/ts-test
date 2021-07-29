@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.last = exports.Countries = exports.Warnings = void 0;
+exports.LasCountry = exports.last = exports.Countries = exports.Warnings = void 0;
 var Warnings;
 (function (Warnings) {
     Warnings[Warnings["None"] = 0] = "None";
@@ -18,6 +18,12 @@ var Countries;
     Countries[Countries["Frankrijk"] = 3] = "Frankrijk";
     Countries[Countries["VerenigdeStaten"] = 4] = "VerenigdeStaten";
     Countries[Countries["Thailand"] = 5] = "Thailand";
-    Countries[Countries["Last"] = 6] = "Last";
+    Countries[Countries["Cambodja"] = 6] = "Cambodja";
+    Countries[Countries["Last"] = 7] = "Last";
 })(Countries = exports.Countries || (exports.Countries = {}));
 exports.last = Countries.Last;
+function LasCountry() {
+    var k = Countries.Last;
+    console.log(k - 1, Countries[k - 1]);
+}
+exports.LasCountry = LasCountry;

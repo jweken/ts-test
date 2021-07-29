@@ -15,9 +15,15 @@ export enum Countries {
     Frankrijk,
     VerenigdeStaten,
     Thailand,
+    Cambodja,
     Last
 }
 
 export var last = Countries.Last
+
+export function LasCountry() {
+    var k = Countries.Last;
+    console.log(k - 1, Countries[k - 1]);
+}
 
 
