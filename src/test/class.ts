@@ -3,18 +3,18 @@
 /*
     A test class - removeable
 */
-class A {
+class TestExample {
     message: string = null
     id: Number = 0
 }
 
-function testClassA() {
-    var B = new A()
-    B.message = "text";
-    B.id = 123;
-    var h = B.message;
-    console.log('\n\t', h, B.id, 'TestClass Resuli');
+function testClass() {
+    var Result = new TestExample()
+    Result.message = "text"
+    Result.id = 123
+    console.log('\n\t', 'TestExample : Result is | ', Result.message, Result.id)
 
 }
 
-testClassA();
+
+testClass()
