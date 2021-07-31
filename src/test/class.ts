@@ -18,9 +18,3 @@ function testClassA() {
 }
 
 testClassA();
-
-
-
-
-
-
