@@ -5,4 +5,4 @@ function Header() {
     console.log('\nHeader for Typescript\n\n');
 }
 exports.Header = Header;
-Header();
+//Header()
