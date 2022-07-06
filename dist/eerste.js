@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Fruit = void 0;
 /**/
 console.log("eerste");
 var Fruit;
