@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LasCountry = exports.last = exports.Countries = exports.Warnings = void 0;
 var Warnings;
 (function (Warnings) {
     Warnings[Warnings["None"] = 0] = "None";
