@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{fe3065d2-912a-4f42-8c4c-a85d5628e0a0}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <StartupFile>src\app.ts</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,11 +24,18 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Content Include="basic.html" />
+    <Content Include="libman.json" />
+    <Content Include="lib\typicons\typicons.css" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
     <Content Include="README.md" />
     <Content Include="src\greeter.html" />
+    <Content Include="typicons.eot" />
+    <Content Include="typicons.min.css" />
+    <Content Include="typicons.svg" />
+    <Content Include="typicons.ttf" />
+    <Content Include="typicons.woff" />
     <TypeScriptCompile Include="src\app-import.ts" />
     <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\basic-types.ts" />
@@ -47,6 +54,8 @@
   <ItemGroup>
     <Folder Include="dist" />
     <Folder Include="dist\test" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\typicons\" />
     <Folder Include="src" />
     <Folder Include="src\test" />
   </ItemGroup>
